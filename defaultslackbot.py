@@ -4,7 +4,7 @@ import slackclient, time
 SOCKET_DELAY = 1
 # slackbot environment variables SETTING YOUR VARIABLES THAT YOU NEED
 SLACKBOT_NAME = "task1"
-SLACKBOT_TOKEN = "xoxb-203433364530-aCWblZmFrmB8YkqPhn18GNfs"
+SLACKBOT_TOKEN = ""
 SLACKBOT_ID = "U5ZCRAQFL"
 
 # Create client which allows us to interact with SLACK API 

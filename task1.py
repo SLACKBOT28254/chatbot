@@ -2,7 +2,7 @@ import os
 import slackclient
 
 SLACKBOT_NAME = "task1"
-SLACKBOT_TOKEN = "xoxb-203433364530-aCWblZmFrmB8YkqPhn18GNfs"
+SLACKBOT_TOKEN = ""
 SLACKBOT_ID = "U5ZCRAQFL"
 
 CLIENT = slackclient.SlackClient(SLACKBOT_TOKEN)
