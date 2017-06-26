@@ -1,5 +1,4 @@
-import os, slackclient, time
-import random
+import slackclient, time
 
 # delay in seconds before checking for new events 
 SOCKET_DELAY = 1
@@ -43,7 +42,7 @@ def run():
                     print('Name: ' + str(event.get('name')))
                     if True:
                         handle_message(message=event.get('text'), user=event.get('user'), channel=event.get('channel'))
-            time.sleep(SOCKET_DELAY)
+            time.sleep(SOCKET_DELAY) 
     else:
         print('[!] Connection to Slack failed.')
 
